@@ -42,8 +42,6 @@ spec:
   affinity:
     podAntiAffinity:
       requiredDuringSchedulingIgnoredDuringExecution:
-      - weight: 1
-        podAffinityTerm:
           labelSelector:
             matchExpressions:
             - key: purpose
