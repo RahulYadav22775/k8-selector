@@ -6,6 +6,12 @@ Taint the node
 kubectl taint nodes ip-192-168-50-50.ec2.internal    hardware=gpu:NoSchedule
 ---
 
+Untaint
+---
+
+kubectl taint nodes ip-192-168-50-50.ec2.internal    hardware=gpu:NoSchedule-
+
+
 label node
 ---
 
